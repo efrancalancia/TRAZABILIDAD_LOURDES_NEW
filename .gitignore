@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Venv
+.venv/
+env/
+venv/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Env & secrets
+.env
+*.pwd
+
+# Build / cache
+dist/
+build/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Streamlit
+frontend/streamlit_app/.streamlit/
+.streamlit/
+
+# Outputs
+outputs/
